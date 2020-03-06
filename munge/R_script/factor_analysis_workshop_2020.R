@@ -12,18 +12,23 @@
 ## Author: Filipe Recch
 ##############################################################################-
 
+#  Installing packages - if you don't have them installed ----
+##############################################################################-
+
+# install.packages("psych")
+# install.packages("GPArotation")
+# install.packages("tidyverse")
+
+# Paths -------------------------------------------------------------------
+##############################################################################-
+
+source("file_paths.R")
+
 ## Packages, Parameters, & Input Data ----
 ##############################################################################-
-suppressPackageStartupMessages(library(conflicted))
-suppressPackageStartupMessages(library(janitor))
-suppressPackageStartupMessages(library(magrittr))
 suppressPackageStartupMessages(library(psych))
 suppressPackageStartupMessages(library(GPArotation))
 suppressPackageStartupMessages(library(tidyverse))
-
-# Paths -------------------------------------------------------------------
-
-source("file_paths.R")
 
 ##  Loading data ----
 ##############################################################################-
